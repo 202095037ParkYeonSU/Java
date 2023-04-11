@@ -22,12 +22,13 @@ public class ContinueTest {
 		
 		while(i <= 100)
 		{
+			i++;
 			if (i % num != 0) continue;
 			
 			sum = sum + i;
-			i++;
+			
 		}
-		System.out.print(num + "의 배수의 합은 : " + sum);
+		System.out.print("1 ~ 100 중" + num + "의 배수의 합은 : " + sum);
 
 	}
 

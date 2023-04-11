@@ -27,9 +27,10 @@ public class BreakTest {
 			
 			if (sum >= 1000) break;
 		}
-		System.out.print("1000을 넘은 수 : " + num + ", 입력값의 평균은 : " + sum / i);
-		
-		
+		System.out.println("1000을 넘은 수 : " + num);
+		System.out.println("입력값의 합은 : " + sum);
+		System.out.println("입력값의 평균은 : " + sum / i);
+		 
 	}
 
 }
