@@ -30,11 +30,11 @@ public class CopyArrayTest {
 		
 		num4[2] = 999;	// num4[2] 요소 값 변경
 		
-		System.out.print("\nnum1 값 : ");
+		System.out.print("\nnum3 값 : ");
 		for (int i : num3)	// num3 출력
 			System.out.print(i + " ");
 
-		System.out.print("\nnum2 값 : ");
+		System.out.print("\nnum4 값 : ");
 		for (int i : num4)	// num4 출력
 			System.out.print(i + " ");
 		
